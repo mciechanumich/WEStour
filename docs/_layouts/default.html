@@ -53,9 +53,15 @@
     </video>
   {% endif %}
 
-  {% if page.image %}
-    <figcaption>Photo</figcaption>
-    <img src="{{ page.image | relative_url }}">
+  {% if page.images %}
+    <div class="gallery">
+        {% for img in page.images %}
+            <figure>
+              <img src="{{ img.src | relative_url }}" alt="{{ img.alt }}">
+              {% if img.alt %}<figcaption>{{ img.alt }}</figcaption>{% endif %}
+            </figure>
+        {% endfor %}
+    </div">
   {% endif %}
 
   {% if page.extra %}
