@@ -4,4 +4,4 @@ description: A collection of house tour pages.
 # baseurl matters — see the note at the bottom.
 # Project site (https://USER.github.io/REPO/): set baseurl: "/REPO"
 # User site   (https://USER.github.io/):       leave it empty.
-baseurl: "https://mciechanumich.github.io/WEStour/"
+baseurl: "WEStour"
