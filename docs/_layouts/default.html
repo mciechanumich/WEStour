@@ -44,15 +44,22 @@
   </figure>
   {% endif %}
 
+<!-- this handles a list of videos -->
   {% if page.video %}
-    <figcaption>Watch</figcaption>
-    <video controls preload="none" width="100%">
-      <source src="{{ page.video | relative_url }}" type="video/mp4">
-      Your browser can't play this video.
-      <a href="{{ page.video | relative_url }}">Download the video</a>.
-    </video>
+    <div class="gallery">
+        {% for vid in page.video %}
+            {% if vid.alt %}<figcaption>{{ vid.alt }}</figcaption>{% endif %}
+            <video controls preload="none" width="100%">
+              <source src="{{ vid.src | relative_url }}" type="video/mp4">
+              Your browser can't play this video.
+              <a href="{{ vid.src | relative_url }}">Download the video</a>.
+            </video>
+            {% if vid.attribution %}<figcaption>{{ vid.attribution }}</figcaption>{% endif %}
+        {% endfor %}
+    </div">
   {% endif %}
 
+<!-- this handles a list of images -->
   {% if page.images %}
     <div class="gallery">
         {% for img in page.images %}

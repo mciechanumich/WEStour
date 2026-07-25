@@ -2,7 +2,10 @@
 layout: default
 title: Test Audio
 audio: /audio/click.mp3
-video: /video/Big_Buck_Bunny_360_10s_1MB.mp4
+video:
+  - src: /video/Big_Buck_Bunny_360_10s_1MB.mp4
+    alt: Big Buck Bunny
+    attribution: Big Buck Bunny © Blender Foundation, CC-BY 3.0
 # comment: set this to false when we have some real pages working
 images:
   - src: /image/RCA_Indian_Head_Test_Pattern.jpg
@@ -16,4 +19,3 @@ extra: >
 
 Test audio file to try out the Jekyll and markdown.
 
-Big Buck Bunny © Blender Foundation, CC-BY 3.0
