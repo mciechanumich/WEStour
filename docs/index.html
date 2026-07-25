@@ -1,29 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WES</title>
-    <!-- Link to an external CSS stylesheet -->
-    <style>
-        body {font-family: Arial, Helvetica, sans-serif;}
-    .center-column {
-        width: 80%; /* Or a specific pixel value, e.g., max-width: 600px; */
-        margin-left: auto; /* Automatically distribute left space */
-        margin-right: auto; /* Automatically distribute right space */
-        background-color: #ffffff; /* White background for the column itself */
-        max-width: 800px; /* Optional: cap the maximum width on large screens */
-        padding: 20px; /* Add some space around the content */
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: add a subtle shadow */
-    }
-    </style>
-</head>
-<body>
+---
+layout: default
+title: Audio Pages
+---
+
+<div class="center-column">WES Tour</div>
+
+{% for p in site.pages %}
     <div class="center-column">
-WES Tour
+        {% if p.audio %}
+            <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+        {% endif %}
     </div>
-    <div class="center-column">
-        <a href="#">Front Fence</a>
-    </div>
-</body>
-</html>
+{% endfor %}
+
