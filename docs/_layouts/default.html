@@ -44,6 +44,14 @@
   </figure>
   {% endif %}
 
+  {% if page.video %}
+    <video controls preload="none" width="100%">
+      <source src="{{ page.video | relative_url }}" type="video/mp4">
+      Your browser can't play this video.
+      <a href="{{ page.video | relative_url }}">Download the video</a>.
+    </video>
+  {% endif %}
+
   {% if page.extra %}
   <div>
   <p>
