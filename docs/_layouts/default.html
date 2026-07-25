@@ -21,10 +21,14 @@
         padding: 20px; /* Add some space around the content */
         box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: add a subtle shadow */
     }
+    nav { margin-bottom: 2rem; font-size: .9rem; }
   </style>
 </head>
 <body>
-  <nav><a href="{{ '/' | relative_url }}">← Home</a></nav>
+<!-- guard against the home nav link showing up on the home page itself, only want it on child pages -->
+{% unless page.url == '/' %}
+    <nav><a href="{{ '/' | relative_url }}">← Home</a></nav>
+{% endunless %}
 
   <h1>{{ page.title }}</h1>
 
