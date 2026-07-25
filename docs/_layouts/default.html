@@ -52,6 +52,10 @@
     </video>
   {% endif %}
 
+  {% if page.image %}
+    <img src="{{ page.image | relative_url }}">
+  {% endif %}
+
   {% if page.extra %}
   <div>
   <p>
