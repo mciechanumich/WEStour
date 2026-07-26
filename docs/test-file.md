@@ -1,4 +1,5 @@
 ---
+published: false
 layout: default
 title: Test Audio
 audio: /audio/click.mp3
@@ -10,7 +11,6 @@ video:
 images:
   - src: /image/RCA_Indian_Head_Test_Pattern.jpg
     alt: Test pattern
-published: true
 extra: >
   This is extra text.
   
