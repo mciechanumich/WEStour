@@ -2,7 +2,7 @@
 published: true
 layout: default
 title: Boiler Room Renovation
-audio: /audio/boilerplaceholder.mp3
+audio: /audio/boilerroomplaceholder.mp3
 #video
 # comment: set this to false when we have some real pages working
 #refs:
