@@ -13,10 +13,11 @@ title: WES Tour
 <img src="image/exterior2.jpg" width="100">
 
 {% for p in site.pages %}
-    <div class="center-column">
-        {% if p.published %}
+    {% if p.published %}
+        <div class="center-column">
             <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
-        {% endif %}
-    </div>
+        </div>
+    {% endif %}
+
 {% endfor %}
 
