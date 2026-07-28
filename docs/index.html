@@ -14,7 +14,7 @@ title: WES Tour
 
 {% for p in site.pages %}
     <div class="center-column">
-        {% if p.audio %}
+        {% if p.published %}
             <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
         {% endif %}
     </div>
