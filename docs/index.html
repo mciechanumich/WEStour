@@ -1,6 +1,10 @@
 ---
 layout: default
 title: WES Tour
+tour_routes:
+  - "wayne_route.md"
+  - "engineering_route.md"
+  - "society_route.md"
 ---
 
 <div>
@@ -22,6 +26,14 @@ title: WES Tour
 
   <img src="image/exterior2.jpg" alt="exterior map"  width=300 class="framed-image">
 
+{% for p in site.tour_routes %}
+    {% if p.published %}
+        <div class="center-column">
+            <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+        </div>
+    {% endif %}
+{% endfor %}
+<!--
 {% for p in site.pages %}
     {% if p.published %}
         <div class="center-column">
@@ -30,4 +42,5 @@ title: WES Tour
     {% endif %}
 
 {% endfor %}
+-->
 
