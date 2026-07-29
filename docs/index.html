@@ -32,6 +32,18 @@ tour_routes:
 
 
 <div>
+
+{% for p in site.pages %}
+  {% if p.path contains '_route.md' %}
+    {% if p.published %}
+        <div class="center-column">
+            <a href="{{ p.url }}">{{ p.title }}</a> {{ p.description }}
+        </div>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+
   <ul>
   <li>"WAYNE" Route (This is the "regular" route. Outside first, then kitchen, basement, and end on third floor.)</li>
   <li>"ENGINEERING" Route ("Work your way up" -- start in basement, then kitchen, exterior, end on third floor.)</li>
@@ -40,6 +52,7 @@ tour_routes:
 </div>
 
 
+<!--
 {% for p in site.tour_routes %}
     {% if p.published %}
         <div class="center-column">
@@ -47,6 +60,8 @@ tour_routes:
         </div>
     {% endif %}
 {% endfor %}
+-->
+
 <!--
 {% for p in site.pages %}
     {% if p.published %}
