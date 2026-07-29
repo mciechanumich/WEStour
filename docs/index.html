@@ -35,7 +35,9 @@ tour_routes:
 
 
 <div>
-{% for p in site.pages %}
+<!-- use position to put WAYNE file first in list, ENG second, etc. --> 
+{% assign sorted_files = site.pages | sort: "position" %}
+{% for p in sorted_files %}
   {% if p.path contains '_route.md' %}
     {% if p.published %}
         <div class="center-column">

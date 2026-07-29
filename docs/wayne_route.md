@@ -1,6 +1,7 @@
 ---
 published: true
 layout: default
+position: 1
 title: The "WAYNE" Route
 audio: /audio/frontfenceplaceholder.mp3
 #video
