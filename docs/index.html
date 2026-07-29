@@ -37,7 +37,7 @@ tour_routes:
   {% if p.path contains '_route.md' %}
     {% if p.published %}
         <div class="center-column">
-            <a href="{{ p.url }}">{{ p.title }}</a> {{ p.description }}
+            <a href="{{ p.url | relative_url }}">{{ p.title | default: p.name }}</a> {{ p.description }}
         </div>
     {% endif %}
   {% endif %}
