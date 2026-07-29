@@ -1,7 +1,7 @@
 ---
 published: true
 layout: default
-title: "SOCIETY" Route
+title: The "SOCIETY" Route
 audio: /audio/frontfenceplaceholder.mp3
 description: The "SOCIETY" route allows you to "start at the top and work your way down". Start on third floor, then kitchen, then exterior, and end in basement.
 #video
