@@ -7,9 +7,9 @@ title: The "WAYNE" Route
 #video
 # comment: set this to false when we have some real pages working
 description: The "WAYNE" route is the "regular" tour route. Tour outside first, then the kitchen, basement, and end on third floor.
-images:
-  - src: /image/fence300.jpg
-    alt: front fence
+#images:
+#  - src: /image/fence300.jpg
+#    alt: front fence
 #extra:
 ---
 <div>
@@ -32,6 +32,15 @@ First Floor (Start here)
 </p>
 <p>
 <img src="image/drawing_basement_w.jpg" alt="basement map"  width=300 class="framed-image">
+</p>
+<p>
+<img src="image/drawing_firstfloor_w3.jpg" alt="first floor map"  width=300 class="framed-image">
+</p>
+<p>
+<img src="image/drawing_secondfloor_w1.jpg" alt="second floor map"  width=300 class="framed-image">
+</p>
+<p>
+<img src="image/drawing_thirdfloor_w1.jpg" alt="third floor map"  width=300 class="framed-image">
 </p>
 
 </div>
