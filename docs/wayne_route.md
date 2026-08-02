@@ -17,40 +17,22 @@ images:
 The "WAYNE" route is the "regular" tour route. Tour outside first, then the kitchen, basement, and end on third floor.
 </p>
 </div>
+
 <div>
-<section class="faq-section">
-  <details class="faq-item">
-    <summary class="faq-question">First Floor (Start here)</summary>
-    <div class="faq-answer">
-        <p>
-          <img src="image/drawing_firstfloor_w1.jpg" alt="first floor map"  width=300 class="framed-image">
-        </p>
-    </div>
-  </details>
-</section>
+<p>
+First Floor (Start here)
+<br/>
+<img src="image/drawing_firstfloor_w1.jpg" alt="first floor map"  width=300 class="framed-image">
+</p>
+<p>
+<img src="image/drawing_exterior.jpg" alt="exterior map"  width=300 class="framed-image">
+</p>
+<p>
+<img src="image/drawing_firstfloor_w2.jpg" alt="first floor map"  width=300 class="framed-image">
+</p>
+<p>
+<img src="image/drawing_basement_w.jpg" alt="basement map"  width=300 class="framed-image">
+</p>
 
-
-<section class="faq-section">
-  <details class="faq-item">
-    <summary class="faq-question"></summary>
-    <div class="faq-answer">
-        <p>
-          <img src="image/drawing_exterior.jpg" alt="exterior map"  width=300 class="framed-image">
-        </p>
-    </div>
-  </details>
-</section>
-
-
-<section class="faq-section">
-  <details class="faq-item">
-    <summary class="faq-question"></summary>
-    <div class="faq-answer">
-        <p>
-          <img src="image/drawing_firstfloor_w2.jpg" alt="first floor map"  width=300 class="framed-image">
-        </p>
-    </div>
-  </details>
-</section>
 </div>
 
