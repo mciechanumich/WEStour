@@ -4,7 +4,7 @@ layout: default
 position: 2
 title: The "ENGINEERING" Route
 audio: /audio/frontfenceplaceholder.mp3
-description: The "ENGINEERING" route has you "work your way up". Start in the basement, then first-floor kitchen, exterior, and end on the third floor.
+description: The "ENGINEERING" route has you "start at the top and work your way down". Start on third floor, then kitchen, then exterior, and end in basement.
 #video
 # comment: set this to false when we have some real pages working
 images:
@@ -12,4 +12,4 @@ images:
     alt: front fence
 #extra:
 ---
-The "ENGINEERING" route makes you "work your way up". Start in the basement, then first-floor kitchen, exterior, and end on the third floor.
+The "ENGINEERING" route has you "start at the top and work your way down". Start on third floor, then kitchen, then exterior, and end in basement.

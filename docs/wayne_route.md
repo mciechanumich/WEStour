@@ -14,7 +14,7 @@ description: The "WAYNE" route is the "regular" tour route. Tour outside first, 
 ---
 <div>
 <p>
-The "WAYNE" route is the "regular" tour route. Tour outside first, then the kitchen, basement, and end on third floor.
+The "WAYNE" route is the "regular" tour route. Start in the main hallway, tour outside exterior first, then the first floor and kitchen, basement, and end on third floor.
 </p>
 </div>
 

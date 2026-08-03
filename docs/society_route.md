@@ -3,13 +3,13 @@ published: true
 layout: default
 position: 3
 title: The "SOCIETY" Route
-audio: /audio/frontfenceplaceholder.mp3
-description: The "SOCIETY" route allows you to "start at the top and work your way down". Start on third floor, then kitchen, then exterior, and end in basement.
+#audio: /audio/frontfenceplaceholder.mp3
+description: The "SOCIETY" route has you "work your way up". Start in the basement, then first-floor kitchen, exterior, and end on the third floor.
 #video
 # comment: set this to false when we have some real pages working
-images:
-  - src: /image/fence300.jpg
-    alt: front fence
+#images:
+#  - src: /image/fence300.jpg
+#    alt: front fence
 #extra:
 ---
-The "SOCIETY" route allows you to "start at the top and work your way down". Start on third floor, then kitchen, then exterior, and end in basement.
+The "SOCIETY" route has you "work your way up". Start in the basement, then first-floor kitchen, exterior, and end on the third floor.
