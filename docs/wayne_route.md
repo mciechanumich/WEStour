@@ -20,10 +20,9 @@ The "WAYNE" route is the "regular" tour route. Start in the main hallway, tour o
 
 <div>
 <p>
-First Floor (Start here)
-<br/>
 <img src="image/drawing_firstfloor_w1.jpg" alt="first floor map"  width=300 class="framed-image">
 </p>
+<p> <a href="{{ 'wayne_route_1exterior.html' | relative_url }}">Exterior</a> </p>
 <p>
 <img src="image/drawing_exterior.jpg" alt="exterior map"  width=300 class="framed-image">
 </p>
