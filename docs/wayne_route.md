@@ -37,8 +37,10 @@ The "WAYNE" route is the "regular" tour route. Start in the main hallway, tour o
 </div>
 
 <div>
-<a href="{{ 'wayne_route_1start.md' | relative_url }}" class="btn">
+<a href="{{ 'wayne_route_1start.html' | relative_url }}" >
+<button>
 START the 'WAYNE' Route
+</button>
 </a>
 </div>
 
