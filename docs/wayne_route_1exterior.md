@@ -17,7 +17,7 @@ description: The exterior tour stops include the Front Fence, the exterior paint
 ---
 <div>
 <p>
-The exterior tour stops include the Front Fence, the exterior paint, the dumpster, and the exterior electrical. When you arrive at the first tour stop, the front fence, click the FRONT FENCE button. 
+The exterior tour stops include the Front Fence, the exterior paint, the dumpster, and the exterior electrical. When you arrive at the first tour stop, the front fence, click the FRONT FENCE button..
 </p>
 </div>
 
