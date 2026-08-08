@@ -20,16 +20,16 @@ The "WAYNE" route is the "regular" tour route. Start in the main hallway, tour o
 
 <div>
 <p>
-<img src="image/drawing_firstfloor_w1.jpg" alt="first floor map"  width=300 class="framed-image" style="display: inline-block; margin-right: 2%;">
-<img src="image/drawing_exterior.jpg" alt="exterior map"  width=300 class="framed-image" style="display: inline-block;">
+<img src="image/drawing_firstfloor_w1.jpg" alt="first floor map"  width=300 class="framed-image" style="display: inline-block; height: auto; margin-right: 2%;">
+<img src="image/drawing_exterior.jpg" alt="exterior map"  width=300 class="framed-image" style="display: inline-block; height: auto;">
 </p>
 <p>
-<img src="image/drawing_firstfloor_w2.jpg" alt="first floor map"  width=300 class="framed-image" style="display: inline-block; margin-right: 2%;">
-<img src="image/drawing_basement_w.jpg" alt="basement map"  width=300 class="framed-image" style="display: inline-block;">
+<img src="image/drawing_firstfloor_w2.jpg" alt="first floor map"  width=300 class="framed-image" style="display: inline-block; height: auto; margin-right: 2%;">
+<img src="image/drawing_basement_w.jpg" alt="basement map"  width=300 class="framed-image" style="display: inline-block; height: auto;">
 </p>
 <p>
-<img src="image/drawing_firstfloor_w3.jpg" alt="first floor map"  width=300 class="framed-image" style="display: inline-block; margin-right: 2%;">
-<img src="image/drawing_secondfloor_w1.jpg" alt="second floor map"  width=300 class="framed-image" style="display: inline-block;">
+<img src="image/drawing_firstfloor_w3.jpg" alt="first floor map"  width=300 class="framed-image" style="display: inline-block; height: auto; margin-right: 2%;">
+<img src="image/drawing_secondfloor_w1.jpg" alt="second floor map"  width=300 class="framed-image" style="display: inline-block; height: auto;">
 </p>
 <p>
 <img src="image/drawing_thirdfloor_w1.jpg" alt="third floor map"  width=300 class="framed-image">
