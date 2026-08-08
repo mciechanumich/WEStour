@@ -39,10 +39,11 @@
 {% unless page.url == '/' %}
     <nav><a href="{{ '/' | relative_url }}">← Home</a></nav>
 {% endunless %}
-    back to ___ '{{ page.nav }}'
-{% if page.nav %}
+    back to title___ '{{ page.title }}'
+    back to ___ '{{ page.navstuff }}'
+{% if page.navstuff %}
     back to route
-    <nav><a href="{{ page.nav.link | relative_url }}">← {{ page.nav.desc }} </a></nav>
+    <nav><a href="{{ page.navstuff.link | relative_url }}">← {{ page.navstuff.desc }} </a></nav>
 {% endif %}
 </div>
 

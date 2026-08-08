@@ -3,7 +3,7 @@ published: true
 layout: default
 position: 1
 title: "WAYNE" Route Exterior
-nav:
+navstuff:
   - link: wayne_route.md
     desc: WAYNE route
 #audio: /audio/frontfenceplaceholder.mp3
