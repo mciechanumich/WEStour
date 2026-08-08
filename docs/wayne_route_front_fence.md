@@ -14,6 +14,9 @@ description: The Front Fence tour stop.
 ---
 <div>
 <p>
+Congrats, you made it to the first tour stop!
+</p>
+<p>
 The Front Fence tour stop.
 </p>
 </div>
