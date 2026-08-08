@@ -38,7 +38,7 @@
 <!-- guard against the home nav link showing up on the home page itself, only want it on child pages -->
 {% unless page.url == '/' %}
     <nav><a href="{{ '/' | relative_url }}">← Home</a></nav>
-    {% if page.nav1%}
+    {% if page.nav1 %}
         <nav><a href="{{ page.nav1 | relative_url }}">← {{ page.nav1 }} </a></nav>
     {% endif %}
 {% endunless %}
