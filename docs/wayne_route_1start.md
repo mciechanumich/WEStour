@@ -17,6 +17,9 @@ description: Start in the front hallway.
 ---
 <div>
 <p>
+To move forward, click on button at the bottom of each page. If you want to quit and go back, use the navigation links at the top of the page.
+</p>
+<p>
 Start in the front hallway and go out the front door.
 </p>
 </div>
@@ -28,10 +31,10 @@ Start in the front hallway and go out the front door.
 </div>
 
 <div>
-Forward to
+Forward to the next location:
 <a href="{{ 'wayne_route_1exterior.html' | relative_url }}">
 <button>
-Exterior
+EXTERIOR
 </button>
 </a>
 </div>

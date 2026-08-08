@@ -46,6 +46,16 @@
 
   <h1>{{ page.title }}</h1>
 
+
+  {% if page.top %}
+  <div>
+  <p>
+  {{ page.top }}
+  </p>
+  </div>
+  {% endif %}
+
+
   {% if page.audio %}
  <figure>
     <figcaption>Listen</figcaption>

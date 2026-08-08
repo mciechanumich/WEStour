@@ -4,6 +4,7 @@ layout: default
 position: 1
 title: Front Fence
 audio: /audio/frontfenceplaceholder.mp3
+top: Congrats, you made it to the first tour stop!
 #video
 # comment: set this to false when we have some real pages working
 description: The Front Fence tour stop.
@@ -13,9 +14,6 @@ description: The Front Fence tour stop.
 #extra:
 ---
 <div>
-<p>
-Congrats, you made it to the first tour stop!
-</p>
 <p>
 The Front Fence tour stop.
 </p>
