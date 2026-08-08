@@ -39,7 +39,7 @@
 {% unless page.url == '/' %}
     <nav><a href="{{ '/' | relative_url }}">← Home</a></nav>
     {% if page.nav1 %}
-        <nav><a href="{{ page.nav1 | relative_url }}">← {{ page.nav1 }} </a></nav>
+        <nav><a href="{{ page.nav1.link | relative_url }}">← {{ page.nav1.desc }} </a></nav>
     {% endif %}
 {% endunless %}
 </div>
