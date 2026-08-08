@@ -1,7 +1,6 @@
 ---
 published: true
 layout: default
-position: 1
 title: "WAYNE" Route Exterior
 navstuff:
   - link: wayne_route.md
