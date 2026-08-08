@@ -32,7 +32,7 @@ Start in the front hallway and go out the front door.
 
 <div>
 Forward to the next location:
-<a href="{{ wayne_route_1exterior.md | relative_url }}" >
+<a href="{% link wayne_route_1exterior.md %}" >
 <button>
 EXTERIOR
 </button>
