@@ -51,19 +51,13 @@ tour_routes:
 </div>
 
 <div>
-<a href=" {{ site.baseurl }} {% link wayne_route_1start.md %}" > try this </a>
+<a href="{% wayne_route_1start.md %}">start</a> 
 </div>
 <div>
-<a href=" {{ site.baseurl }} {% link wayne_route_1exterior.html %}" > try ext html</a>
+<a href="{% wayne_route_1exterior.md %}">ext html</a> 
 </div>
 <div>
-<a href="{{ 'wayne_route_1start.md' | relative_url }}">start</a> 
-</div>
-<div>
-<a href="{{ 'wayne_route_1exterior.html' | relative_url }}">ext html</a> 
-</div>
-<div>
-<a href="{{ 'wayne_route.html' | relative_url }}">wayne route html</a> 
+<a href="{% link wayne_route.md %}">wayne route html</a> 
 </div>
 
 <!--
