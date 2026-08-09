@@ -3,8 +3,8 @@ published: true
 layout: default
 title: WAYNE Route Exterior
 navstuff:
-  - link: wayne_route.md
-    desc: WAYNE route
+  link: wayne_route.md
+  desc: WAYNE route
 #audio: /audio/frontfenceplaceholder.mp3
 #video
 # comment: set this to false when we have some real pages working
