@@ -1,8 +1,7 @@
 ---
 published: true
 layout: default
-position: 1
-title: "WAYNE" Route Start
+title: WAYNE Route Start
 nav1:
   - link: wayne_route.md
     desc: WAYNE route
