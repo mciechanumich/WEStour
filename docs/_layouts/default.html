@@ -44,8 +44,7 @@
 
 {% if page.navstuff %}
     {% assign navpage = site.pages | where: "path", page.navstuff.link | first %}
-        <nav><a href="{{ navpage.url | relative_url }}">← {{ page.navstuff.desc }}</a></nav>
-  {% endif %}
+    <nav><a href="{{ navpage.url | relative_url }}">← {{ page.navstuff.desc }}</a></nav>
 {% endif %}
 </div>
 
