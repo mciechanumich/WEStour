@@ -27,7 +27,7 @@ The Front Fence tour stop.
 
 <div>
 Forward to 
-<a href="{{ 'wayne_route_paint.html' | relative_url }}">
+<a href="{% link wayne_route_paint.md %}">
 <button>
 EXTERIOR PAINT
 </button>

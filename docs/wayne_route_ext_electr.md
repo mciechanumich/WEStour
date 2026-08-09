@@ -26,7 +26,7 @@ The electrical stop.
 
 <div>
 Forward to
-<a href="{{ 'wayne_route_2firstfloor.html' | relative_url }}">
+<a href="{% link wayne_route_2firstfloor.md %}">
 <button>
 FIRST FLOOR
 </button>

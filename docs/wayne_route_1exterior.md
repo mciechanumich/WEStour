@@ -28,7 +28,7 @@ The exterior tour stops include the Front Fence, the exterior paint, the dumpste
 
 <div>
 Forward to
-<a href="{{ 'wayne_route_front_fence.html' | relative_url }}">
+<a href="{% link wayne_route_front_fence.md %}">
 <button>
 FRONT FENCE
 </button>

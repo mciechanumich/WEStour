@@ -26,7 +26,7 @@ The dumpster tour stop.
 
 <div>
 Forward to 
-<a href="{{ 'wayne_route_ext_electr.html' | relative_url }}">
+<a href="{% link wayne_route_ext_electr.md %}">
 <button>
 ELECTRICAL
 </button>

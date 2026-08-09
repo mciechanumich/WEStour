@@ -26,7 +26,7 @@ The exterior paint tour stop.
 
 <div>
 Forward to 
-<a href="{{ 'wayne_route_dumpster.html' | relative_url }}">
+<a href="{% link wayne_route_dumpster.md %}">
 <button>
 DUMPSTER
 </button>

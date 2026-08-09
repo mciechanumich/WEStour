@@ -26,7 +26,7 @@ The first floor tour stops include the windows, the temporary kitchen, and the k
 
 <div>
 Forward to
-<a href="{{ 'wayne_route_windows.html' | relative_url }}">
+<a href="{% link win.md %}">
 <button>
 WINDOWS
 </button>
