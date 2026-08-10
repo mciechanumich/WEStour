@@ -8,7 +8,6 @@ title: The "WAYNE" Route
 # comment: set this to false when we have some real pages working
 description: The "WAYNE" route is the "regular" tour route. Tour outside first, then the kitchen, basement, and end on third floor.
 descriptionlist:
-  - Start in front hall
   - Exterior outside
   - First floor and kitchen
   - Basement
