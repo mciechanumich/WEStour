@@ -35,10 +35,6 @@
 </head>
 <body>
 <div>
-<!-- guard against the home nav link showing up on the home page itself, only want it on child pages -->
-{% unless page.url == '/' %}
-    <nav><a href="{{ '/' | relative_url }}">← Home</a></nav>
-{% endunless %}
 
 <!--
 
@@ -46,10 +42,16 @@
     back to ___ '{{ page.navstuff }}'
 -->
 
-{% if page.navstuff %}
-    {% assign navpage = site.pages | where: "path", page.navstuff.link | first %}
-    <nav><a href="{{ navpage.url | relative_url }}">← {{ page.navstuff.desc }}</a></nav>
-{% endif %}
+<!-- guard against the home nav link showing up on the home page itself, only want it on child pages -->
+{% unless page.url == '/' %}
+    <nav>
+        <a href="{{ '/' | relative_url }}">← Home</a>
+        {% if page.navstuff %}
+            {% assign navpage = site.pages | where: "path", page.navstuff.link | first %}
+            <a href="{{ navpage.url | relative_url }}">← {{ page.navstuff.desc }}</a>
+        {% endif %}
+    </nav>
+{% endunless %}
 </div>
 
   <h1>{{ page.title }}</h1>
