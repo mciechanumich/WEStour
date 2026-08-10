@@ -8,7 +8,7 @@ navstuff:
 #audio: /audio/frontfenceplaceholder.mp3
 #video
 # comment: set this to false when we have some real pages working
-description: The exterior tour stops include the Front Fence, the exterior paint, the dumpster, and the exterior electrical.
+description: The exterior tour stops include the exterior paint, the front fence, the dumpster, and the exterior electrical.
 #images:
 #  - src: /image/fence300.jpg
 #    alt: front fence
@@ -16,7 +16,7 @@ description: The exterior tour stops include the Front Fence, the exterior paint
 ---
 <div>
 <p>
-The exterior tour stops include the exterior paint, the front fence, the dumpster, and the exterior electrical. When you arrive at the first tour stop, the button below.
+The exterior tour stops include the exterior paint, the front fence, the dumpster, and the exterior electrical. When you arrive at the first tour stop, click the button below.
 </p>
 </div>
 
