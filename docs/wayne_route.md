@@ -19,10 +19,14 @@ descriptionlist:
 ---
 <div>
 <p>
-The "WAYNE" route is the "regular" tour route. Start in the main hallway, tour outside exterior first, then the first floor and kitchen, basement, and end on third floor. Here is an overview on the maps. When you are ready start, click on START buton or go back to list of routes.
+The "WAYNE" route is the "regular" tour route. Start in the main hallway, tour outside exterior first, then the first floor and kitchen, basement, and end on third floor.
+</p>
+<p>
+When you are ready to start, click on START buton.
 </p>
 </div>
 
+<!--
 <div>
 <p>
 <img src="image/drawing_firstfloor_w1.jpg" alt="first floor map"  width="220" class="framed-image" style="display: inline-block; height: auto; margin-right: 2%;">
@@ -40,6 +44,7 @@ The "WAYNE" route is the "regular" tour route. Start in the main hallway, tour o
 <img src="image/drawing_thirdfloor_w1.jpg" alt="third floor map"  width=220 class="framed-image">
 </p>
 </div>
+-->
 
 <div>
 {% capture link_url %}{% link wayne_route_1start.md %}{% endcapture %}
