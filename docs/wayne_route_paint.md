@@ -25,6 +25,12 @@ The exterior paint tour stop.
 </div>
 
 <div>
+<p>
+When you ready, follow the map to the next tour stop and click the button below.
+</p>
+</div>
+
+<div>
 Forward to 
 {% capture link_url %}{% link wayne_route_front_fence.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
