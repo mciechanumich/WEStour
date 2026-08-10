@@ -27,9 +27,10 @@ The Front Fence tour stop.
 
 <div>
 Forward to 
-<a href="{% link wayne_route_paint.md %}">
+{% capture link_url %}{% link wayne_route_dumpster.md %}{% endcapture %}
+<a href="{{ link_url | relative_url }}">
 <button>
-EXTERIOR PAINT
+DUMPSTER
 </button>
 </a>
 </div>

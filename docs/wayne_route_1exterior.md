@@ -16,7 +16,7 @@ description: The exterior tour stops include the Front Fence, the exterior paint
 ---
 <div>
 <p>
-The exterior tour stops include the Front Fence, the exterior paint, the dumpster, and the exterior electrical. When you arrive at the first tour stop, the front fence, click the FRONT FENCE button.
+The exterior tour stops include the exterior paint, the front fence, the dumpster, and the exterior electrical. When you arrive at the first tour stop, the button below.
 </p>
 </div>
 
@@ -28,9 +28,10 @@ The exterior tour stops include the Front Fence, the exterior paint, the dumpste
 
 <div>
 Forward to
-<a href="{% link wayne_route_front_fence.md %}">
+{% capture link_url %}{% link wayne_route_paint.md %}{% endcapture %}
+<a href="{{ link_url | relative_url }}">
 <button>
-FRONT FENCE
+EXTERIOR PAINT
 </button>
 </a>
 </div>

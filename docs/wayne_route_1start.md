@@ -16,7 +16,7 @@ description: Start in the front hallway.
 ---
 <div>
 <p>
-To move forward, click on button at the bottom of each page. If you want to quit and go back, use the navigation links at the top of the page.
+Click on button at the bottom of each page to go to then next tour stop. If you want to quit and go back, use the navigation links at the top of the page.
 </p>
 <p>
 Start in the front hallway and go out the front door.
@@ -31,7 +31,8 @@ Start in the front hallway and go out the front door.
 
 <div>
 Forward to the next location:
-<a href="{% link wayne_route_1exterior.md %}" >
+{% capture link_url %}{% link wayne_route_1exterior.md %}{% endcapture %}
+<a href="{{ link_url | relative_url }}">
 <button>
 EXTERIOR
 </button>

@@ -26,9 +26,10 @@ The first floor tour stops include the windows, the temporary kitchen, and the k
 
 <div>
 Forward to
-<a href="{% link win.md %}">
+{% capture link_url %}{% link wayne_route_tempkitchen.md %}{% endcapture %}
+<a href="{{ link_url | relative_url }}">
 <button>
-WINDOWS
+TEMPORARY KITCHEN
 </button>
 </a>
 </div>

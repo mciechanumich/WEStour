@@ -6,7 +6,7 @@ title: The "WAYNE" Route
 #audio: /audio/frontfenceplaceholder.mp3
 #video
 # comment: set this to false when we have some real pages working
-description: The "WAYNE" route is the "regular" tour route. Tour outside first, then the kitchen, basement, and end on third floor.
+description: The "WAYNE" route is the "regular" tour route. Tour outside first, then the first floor and kitchen, basement, and end on third floor.
 descriptionlist:
   - Exterior outside
   - First floor and kitchen
