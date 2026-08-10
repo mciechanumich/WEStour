@@ -39,8 +39,12 @@
 {% unless page.url == '/' %}
     <nav><a href="{{ '/' | relative_url }}">← Home</a></nav>
 {% endunless %}
+
+<!--
+
     back to title___ '{{ page.title }}'
     back to ___ '{{ page.navstuff }}'
+-->
 
 {% if page.navstuff %}
     {% assign navpage = site.pages | where: "path", page.navstuff.link | first %}
