@@ -7,6 +7,12 @@ title: The "WAYNE" Route
 #video
 # comment: set this to false when we have some real pages working
 description: The "WAYNE" route is the "regular" tour route. Tour outside first, then the kitchen, basement, and end on third floor.
+descriptionlist:
+  - Start in front hall
+  - Exterior outside
+  - First floor and kitchen
+  - Basement
+  - Third floor shower
 #images:
 #  - src: /image/fence300.jpg
 #    alt: front fence

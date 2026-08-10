@@ -14,9 +14,10 @@ tour_routes:
 </p>
 <p>Choose a route and follow the map to each tour stop. The tour has ten (10) tour stops, so plan about 30 minutes for the tour. Each stop has a web page with info, audio, and photos.
 </p>
-  <p>All tour routes start in the first-floor front hallway.</p>
-  <p>All routes have maps to help show you the way so you don't miss any stops. Here is what a typical map looks like.</p>
+  <p>All tour routes start in the first floor front hallway.</p>
+  <p>All routes have maps to help show you the way.</p>
 
+<!--
 <section class="faq-section">
   <details class="faq-item">
     <summary class="faq-question">Example map</summary>
@@ -30,6 +31,7 @@ tour_routes:
     </div>
   </details>
 </section>
+-->
 
 </div>
 
@@ -43,30 +45,33 @@ tour_routes:
   {% if p.path contains '_route.md' %}
     {% if p.published %}
         <div class="center-column">
+            <p>
             <a href="{{ p.url | relative_url }}">{{ p.title | default: p.name }}</a> {{ p.description }}
+            </p>
+            <p>
+            <ol>
+            {% for t in p.descriptionlist %}
+                <li>
+                    {{ t }}
+                </li>
+            {% endfor %}
+            </ol>
+            </p>
         </div>
     {% endif %}
   {% endif %}
 {% endfor %}
 </div>
 
+<!--
+good
 <div>
 {% capture link_url0 %}{% link wayne_route.md %}{% endcapture %}
 <a href="{{ link_url0 | relative_url }}">capture wayne_route.md</a>
 {% capture link_url %}{% link wayne_route_1start.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">capture wayne_route_1start.md</a>
-
-<a href="{% link wayne_route.md %}">wayne_route.md</a> 
 </div>
-<div>
-<a href="{% link wayne_route_1start.md %}">start</a> 
-</div>
-<div>
-<a href="{% link wayne_route_1exterior.md %}">ext html</a> 
-</div>
-<div>
-<a href="{% link wayne_route.md %}">wayne route html</a> 
-</div>
+-->
 
 <!--
 {% for p in site.tour_routes %}
