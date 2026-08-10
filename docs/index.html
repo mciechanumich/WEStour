@@ -51,6 +51,11 @@ tour_routes:
 </div>
 
 <div>
+{% capture link_url0 %}{% link wayne_route.md %}{% endcapture %}
+<a href="{{ link_url0 | relative_url }}">capture wayne_route.md</a>
+{% capture link_url %}{% link wayne_route_1start.md %}{% endcapture %}
+<a href="{{ link_url | relative_url }}">capture wayne_route_1start.md</a>
+
 <a href="{% link wayne_route.md %}">wayne_route.md</a> 
 </div>
 <div>
