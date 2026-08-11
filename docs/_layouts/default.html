@@ -45,10 +45,17 @@
 <!-- guard against the home nav link showing up on the home page itself, only want it on child pages -->
 {% unless page.url == '/' %}
     <nav>
+        <!-- LEVEL 1 nav -->
         <a href="{{ '/' | relative_url }}">← Home</a>
         {% if page.navstuff %}
+            <!-- LEVEL 2 nav -->
             {% assign navpage = site.pages | where: "path", page.navstuff.link | first %}
             <a href="{{ navpage.url | relative_url }}">← {{ page.navstuff.desc }}</a>
+            {% if page.navstuff %}
+                <!-- LEVEL 3 nav -->
+                {% assign navpage2 = site.pages | where: "path", page.navstuff2.link | first %}
+                <a href="{{ navpage2.url | relative_url }}">← {{ page.navstuff2.desc }}</a>
+            {% endif %}
         {% endif %}
     </nav>
 {% endunless %}

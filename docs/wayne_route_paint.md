@@ -3,6 +3,12 @@ published: true
 layout: default
 position: 1
 title: Exterior Paint
+navstuff:
+  link: wayne_route.md
+  desc: WAYNE route
+navstuff2:
+  link: wayne_route_1exterior.md
+  desc: WAYNE Route Exterior
 audio: /audio/filler.mp3
 top: Congrats, you made it to the first tour stop!
 #video
