@@ -2,11 +2,11 @@
 published: true
 layout: default
 position: 1
-title: "WAYNE" Route Basement
+title: "WAYNE" Route Third Floor
 #audio: /audio/frontfenceplaceholder.mp3
 #video
 # comment: set this to false when we have some real pages working
-description: The basement tour stops include the electrical and boiler room.
+description: The Third floor.
 #images:
 #  - src: /image/fence300.jpg
 #    alt: front fence
@@ -14,7 +14,7 @@ description: The basement tour stops include the electrical and boiler room.
 ---
 <div>
 <p>
-The basement tour stops include electrical, and the boiler room. When you arrive at the tour stop electrical, click the button below.
+The third floor.
 </p>
 </div>
 
@@ -26,10 +26,10 @@ The basement tour stops include electrical, and the boiler room. When you arrive
 
 <div>
 Forward to
-{% capture link_url %}{% link wayne_route_electr.md %}{% endcapture %}
+{% capture link_url %}{% link wayne_route_thirdfloorshower.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 <button>
-ELECTRICAL
+THIRD FLOOR SHOWER
 </button>
 </a>
 </div>

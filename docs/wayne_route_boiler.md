@@ -2,11 +2,11 @@
 published: true
 layout: default
 position: 1
-title: Exterior Electrical
+title: Boiler
 audio: /audio/electricalplaceholder.mp3
 #video
 # comment: set this to false when we have some real pages working
-description: The electrical tour stop.
+description: The boiler tour stop.
 #images:
 #  - src: /image/fence300.jpg
 #    alt: front fence
@@ -14,10 +14,7 @@ description: The electrical tour stop.
 ---
 <div>
 <p>
-The exterior electrical stop.
-</p>
-<p>
-This is the last outside tour stop. Go in the front door to continue the tour.
+The boiler stop.
 </p>
 </div>
 
@@ -29,10 +26,10 @@ This is the last outside tour stop. Go in the front door to continue the tour.
 
 <div>
 Forward to
-{% capture link_url %}{% link wayne_route_2firstfloor.md %}{% endcapture %}
+{% capture link_url %}{% link wayne_route_secondfloor.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 <button>
-FIRST FLOOR
+SECOND FLOOR
 </button>
 </a>
 </div>

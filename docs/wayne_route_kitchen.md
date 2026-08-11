@@ -14,7 +14,7 @@ description: The kitchen tour stop.
 ---
 <div>
 <p>
-The kitchen stop.
+The kitchen stop. This is the last stop on the first floor. After this, go downstairs to continue the tour in the basement.
 </p>
 </div>
 
@@ -26,7 +26,7 @@ The kitchen stop.
 
 <div>
 Forward to
-{% capture link_url %}{% link wayne_route_kitchen.md %}{% endcapture %}
+{% capture link_url %}{% link wayne_route_basement.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 <button>
 BASEMENT

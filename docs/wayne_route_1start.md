@@ -25,7 +25,7 @@ Start in the front hallway and go out the front door.
 
 <div>
 <p>
-<img src="image/drawing_firstfloor_w1.jpg" alt="exterior map"  width=300 class="framed-image">
+<img src="image/drawing_firstfloor_w1.jpg" alt="first floor map"  width=300 class="framed-image">
 </p>
 </div>
 

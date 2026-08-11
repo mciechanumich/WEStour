@@ -27,7 +27,7 @@ The exterior paint tour stop.
 
 <div>
 <p>
-When you ready, follow the map to the next tour stop and click the button below.
+When you are ready, follow the map to the next tour stop and click the button below.
 </p>
 </div>
 
