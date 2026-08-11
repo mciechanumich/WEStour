@@ -2,24 +2,21 @@
 WES tour
 
 # page layout
-- top
+- top. All routes start in main hallway
   - Wayne route
-    - start at hallway
-    - exterior
+    - exterior paint and fence
     - first floor and kitchen
     - basement electrial and boiler
     - third-floor shower
   - Engineering route
-    - start at hallway
     - third-floor shower
     - first floor and kitchen
-    - exterior
+    - exterior paint and fence
     - basement electrial and boiler
   - Society route
-    - start at hallway
     - basement boiler and electrial
     - kitchen and first floor
-    - exterior
+    - exterior paint and fence
     - third-floor shower
 
 
