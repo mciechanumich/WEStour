@@ -4,6 +4,7 @@ layout: default
 position: 1
 title: Exterior Paint
 audio: /audio/exteriorpaintplaceholder.mp3
+top: Congrats, you made it to the first tour stop!
 #video
 # comment: set this to false when we have some real pages working
 description: The exterior paint tour stop.
