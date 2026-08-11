@@ -3,6 +3,12 @@ published: true
 layout: default
 position: 1
 title: Dumpster
+navstuff:
+  link: wayne_route.md
+  desc: WAYNE route
+navstuff2:
+  link: wayne_route_1exterior.md
+  desc: WAYNE Route Exterior
 audio: /audio/filler.mp3
 #video
 # comment: set this to false when we have some real pages working

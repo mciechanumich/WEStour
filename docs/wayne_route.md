@@ -6,7 +6,7 @@ title: The "WAYNE" Route
 #audio: /audio/frontfenceplaceholder.mp3
 #video
 # comment: set this to false when we have some real pages working
-description: The "WAYNE" route is the "regular" tour route. Tour outside first, then the first floor and kitchen, basement, and end on third floor.
+description: The "WAYNE" route is the "regular" tour route. Tour outside first, then the first floor and kitchen, basement, and end on third floor.  Start in the front hallway.
 descriptionlist:
   - Exterior outside
   - First floor and kitchen
@@ -22,7 +22,12 @@ descriptionlist:
 The "WAYNE" route is the "regular" tour route. Start in the main hallway, tour outside exterior first, then the first floor and kitchen, basement, and end on third floor.
 </p>
 <p>
-When you are ready to start, click on START buton.
+When you are ready, start in the front hallway and go outside to tour the exterior.
+</p>
+</div>
+<div>
+<p>
+<img src="image/drawing_firstfloor_w1.jpg" alt="first floor map"  width=300 class="framed-image">
 </p>
 </div>
 
@@ -47,10 +52,10 @@ When you are ready to start, click on START buton.
 -->
 
 <div>
-{% capture link_url %}{% link wayne_route_1start.md %}{% endcapture %}
+{% capture link_url %}{% link wayne_route_1exterior.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 <button>
-START the 'WAYNE' Route
+EXTERIOR
 </button>
 </a>
 </div>
