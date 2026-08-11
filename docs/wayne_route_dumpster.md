@@ -3,7 +3,7 @@ published: true
 layout: default
 position: 1
 title: Dumpster
-audio: /audio/dumpsterplaceholder.mp3
+audio: /audio/filler.mp3
 #video
 # comment: set this to false when we have some real pages working
 description: The dumpster tour stop.
