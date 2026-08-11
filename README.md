@@ -19,6 +19,29 @@ WES tour
     - exterior paint and fence
     - third-floor shower
 
+# map
+## WAYNE Route
+  - wayne_route.md
+    - wayne_route_1exterior.md
+      - wayne_route_paint.md
+      - wayne_route_front_fence.md
+      - wayne_route_dumpster.md
+      - wayne_route_ext_electr.md
+    - wayne_route_2firstfloor.md
+      - wayne_route_tempkitchen.md
+      - wayne_route_kitchen.md
+    - wayne_route_basement.md
+      - wayne_route_electr.md
+      - wayne_route_boiler.md
+    - wayne_route_secondfloor.md
+    - wayne_route_thirdfloor.md
+      - wayne_route_thirdfloorshower.md
+    - wayne_route_3firstfloor.md
+
+## ENGINEERING Route
+
+## SOCIETY Route
+
 
 # Attributions
 Buck Bunny © Blender Foundation, CC-BY 3.0
