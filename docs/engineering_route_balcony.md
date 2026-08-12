@@ -26,7 +26,7 @@ The third floor balcony.
 
 <div>
 Forward to
-{% capture link_url %}{% link engineering_route_BALCONY.md %}{% endcapture %}
+{% capture link_url %}{% link engineering_route_balcony.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 <button>
 BALCONY
