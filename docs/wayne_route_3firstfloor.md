@@ -6,7 +6,7 @@ title: "WAYNE" Route First Floor
 #audio: /audio/frontfenceplaceholder.mp3
 #video
 # comment: set this to false when we have some real pages working
-description: The first floor tour ends the tour.
+description: The first floor ends the tour.
 #images:
 #  - src: /image/fence300.jpg
 #    alt: front fence
@@ -25,4 +25,8 @@ Congratulations! You have completed the 'WAYNE' route.
 </div>
 
 <div>
+{% capture link_url %}{% link detailed_renovation_info.md %}{% endcapture %}
+<a href="{{ link_url | relative_url }}" target="_BLANK">
+More detailed renovation info, photos
+</a>
 </div>
