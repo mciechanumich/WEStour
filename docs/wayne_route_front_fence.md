@@ -25,6 +25,15 @@ The Front Fence tour stop.
 </div>
 
 <div>
+<p>Link to
+{% capture link_url %}{% link fence_text.md %}{% endcapture %}
+<a href="{{ link_url | relative_url }}">
+transcript
+</a>.
+</p>
+</div>
+
+<div>
 <p>
 <img src="image/drawing_exterior.jpg" alt="exterior map"  width=300 class="framed-image">
 </p>
