@@ -3,7 +3,7 @@ published: true
 layout: default
 position: 1
 title: "WAYNE" Route Basement
-#audio: /audio/frontfenceplaceholder.mp3
+#audio: /audio/filler.mp3
 #video
 # comment: set this to false when we have some real pages working
 description: The basement tour stops include the electrical and boiler room.
