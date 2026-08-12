@@ -2,7 +2,7 @@
 published: true
 layout: default
 position: 1
-title: "WAYNE" Route Basement
+title: Kitchen
 # audio: /audio/filler.mp3
 #video
 # comment: set this to false when we have some real pages working
