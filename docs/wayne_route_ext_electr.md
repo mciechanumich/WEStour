@@ -23,7 +23,7 @@ description: The electrical tour stop.
 The exterior electrical stop.
 </p>
 <p>
-This is the last outside tour stop. Go in the front door to continue the tour.
+This is the last outside exterior tour stop. After this stop, go in the front door to continue the tour.
 </p>
 </div>
 
