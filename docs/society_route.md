@@ -4,7 +4,7 @@ layout: default
 position: 3
 title: The SOCIETY Route
 #audio: /audio/frontfenceplaceholder.mp3
-description: The "SOCIETY" route has you "work your way up". Start in the basement, then first-floor kitchen, exterior, and end on the third floor.
+description: The SOCIETY route has you "work your way up". Start in the basement, then first-floor kitchen, exterior, and end on the third floor.
 descriptionlist:
   - Basement
   - Kitchen and first floor
@@ -17,4 +17,17 @@ descriptionlist:
 #    alt: front fence
 #extra:
 ---
-The "SOCIETY" route has you "work your way up". Start in the basement, then first-floor kitchen, exterior, and end on the third floor.
+<div>
+<p>
+The SOCIETY route has you "work your way up". Start in the basement, then first-floor kitchen, exterior, and end on the third floor.
+</p>
+</div>
+
+<div>
+{% capture link_url %}{% link society_route_basement.md %}{% endcapture %}
+<a href="{{ link_url | relative_url }}">
+<button>
+BASEMENT
+</button>
+</a>
+</div>

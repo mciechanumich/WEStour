@@ -4,8 +4,6 @@ layout: default
 position: 2
 title: The ENGINEERING Route
 #audio: /audio/frontfenceplaceholder.mp3
-#video
-# comment: set this to false when we have some real pages working
 description: The "ENGINEERING" route has you "start at the top and work your way down". Start on third floor, then kitchen, then exterior, and end in basement.
 descriptionlist:
   - Third floor shower
