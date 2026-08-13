@@ -1,8 +1,8 @@
 ---
 published: true
 layout: default
-title: Fence text
-description: fence tour stop transcript
+title: Fence tour stop transcript
+description: Fence tour stop transcript
 ---
 <div>
 <p>
