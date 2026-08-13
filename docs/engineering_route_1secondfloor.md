@@ -1,7 +1,7 @@
 ---
 published: true
 layout: default
-title: The "ENGINEERING" Route Second Floor
+title: The ENGINEERING Route Second Floor
 navstuff:
   link: engineering_route.md
   desc: ENGINEERING route

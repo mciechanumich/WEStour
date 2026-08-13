@@ -2,7 +2,7 @@
 published: true
 layout: default
 position: 3
-title: The "SOCIETY" Route
+title: The SOCIETY Route
 #audio: /audio/frontfenceplaceholder.mp3
 description: The "SOCIETY" route has you "work your way up". Start in the basement, then first-floor kitchen, exterior, and end on the third floor.
 descriptionlist:

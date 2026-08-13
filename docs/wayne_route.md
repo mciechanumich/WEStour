@@ -2,7 +2,7 @@
 published: true
 layout: default
 position: 1
-title: The "WAYNE" Route
+title: The WAYNE Route
 #audio: /audio/frontfenceplaceholder.mp3
 #video
 # comment: set this to false when we have some real pages working
