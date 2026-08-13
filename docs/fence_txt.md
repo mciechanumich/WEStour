@@ -2,7 +2,7 @@
 published: true
 layout: default
 title: Fence text
-description:
+description: fence tour stop transcript
 ---
 <div>
 <p>

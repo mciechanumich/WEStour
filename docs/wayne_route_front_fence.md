@@ -26,7 +26,7 @@ The Front Fence tour stop.
 
 <div>
 <p>Link to
-{% capture link_url %}{% link fence_text.md %}{% endcapture %}
+{% capture link_url %}{% link fence_txt.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 transcript
 </a>.
