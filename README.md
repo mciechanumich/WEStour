@@ -1,25 +1,52 @@
 # WEStour
 WES tour
 
-# page layout
+# map
 - top. All routes start in main hallway
   - Wayne route
     - exterior paint and fence
-    - first floor and kitchen
-    - basement electrial and boiler
-    - third-floor shower
+      - paint
+      - fence
+      - dumpster
+      - exterior electrical
+    - first floor
+      - temporary kitchen
+      - kitchen renovation
+    - basement
+      - electrial
+      - boiler
+    - third-floor
+      - shower and bathroom
   - Engineering route
-    - third-floor shower
-    - first floor and kitchen
-    - exterior paint and fence
-    - basement electrial and boiler
+    - third-floor
+      - shower and bathroom
+    - first floor
+      - kitchen renovation
+      - temporary kitchen
+    - exterior
+      - paint
+      - fence
+      - dumpster
+      - exterior electrical
+    - basement
+      - electrial
+      - boiler
   - Society route
-    - basement boiler and electrial
-    - kitchen and first floor
-    - exterior paint and fence
-    - third-floor shower
+    - basement
+      - boiler
+      - electrial
+    - first floor
+      - kitchen renovation
+      - temporary kitchen
+    - exterior
+      - paint
+      - fence
+      - dumpster
+      - exterior electrical
+    - third-floor
+      - shower and bathroom
 
-# map
+# page layout
 ## WAYNE Route
   - wayne_route.md
     - wayne_route_1exterior.md
@@ -39,8 +66,10 @@ WES tour
     - wayne_route_3firstfloor.md
 
 ## ENGINEERING Route
+TODO
 
 ## SOCIETY Route
+TODO
 
 
 # Attributions
