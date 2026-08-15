@@ -20,7 +20,7 @@ When you are ready, start in the front hallway and go outside to tour the exteri
 </div>
 <div>
 <p>
-drawing_firstfloor_w1.jpg
+<img src="image/drawing_firstfloor_w1.jpg" alt="first floor"  width=300 class="framed-image">
 </p>
 </div>
 

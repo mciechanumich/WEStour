@@ -20,7 +20,7 @@ When you are ready, start in the front hallway and go to downstairs to tour the 
 </div>
 <div>
 <p>
-<img src="image/drawing_firstfloor_s1.jpg" alt="first floor map"  width=300 class="framed-image">
+<img src="image/drawing_firstfloor_s1.jpg" alt="first floor"  width=300 class="framed-image">
 </p>
 </div>
 
