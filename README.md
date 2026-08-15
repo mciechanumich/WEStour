@@ -2,47 +2,56 @@
 WES tour
 
 # map
+
+The map consists of levels, connectors, floors, and stops.
 - top. All routes start in main hallway
-  - Wayne route
-    - exterior paint and fence
+  - WAYNE route
+    - exterior connector
       - paint
       - fence
       - dumpster
       - exterior electrical
-    - first floor
+    - first floor connector
       - temporary kitchen
       - kitchen renovation
-    - basement
+    - basement connector
       - electrial
       - boiler
+    - third-floor (second floor up connector)
+      - shower and bathroom
+  - ENGINEERING route
+    - first floor up12 connector
+    - second floor up23 connector
     - third-floor
       - shower and bathroom
-  - Engineering route
-    - third-floor
-      - shower and bathroom
-    - first floor
+    - second floor down21 connector
+    - first floor 21 connector
       - kitchen renovation
       - temporary kitchen
-    - exterior
+    - exterior connector
       - paint
       - fence
       - dumpster
       - exterior electrical
+    - first floor down1Bmain connector
     - basement
       - electrial
       - boiler
-  - Society route
+  - SOCIETY route
+    - first floor down1B connector
     - basement
       - boiler
       - electrial
-    - first floor
+    - first floor B1 connector
       - kitchen renovation
       - temporary kitchen
-    - exterior
+    - exterior connector
       - paint
       - fence
       - dumpster
       - exterior electrical
+    - first floor up12 connector
+    - second floor up23 connector
     - third-floor
       - shower and bathroom
 
