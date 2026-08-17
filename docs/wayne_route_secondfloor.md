@@ -20,7 +20,7 @@ The second floor.
 
 <div>
 <p>
-<img src="image/drawing_basement_w.jpg" alt="basement map"  width=300 class="framed-image">
+<img src="image/drawing_secondfloor_w1.jpg" alt="basement map"  width=300 class="framed-image">
 </p>
 </div>
 
