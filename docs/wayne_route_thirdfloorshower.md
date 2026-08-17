@@ -20,7 +20,7 @@ The third floor stop. This is the last stop on the tour. After this, go downstai
 
 <div>
 <p>
-<img src="image/drawing_firstfloor_w2.jpg" alt="first floor map"  width=300 class="framed-image">
+<img src="image/drawing_thirdfloor_w1.jpg" alt="third floor shower"  width=300 class="framed-image">
 </p>
 </div>
 
