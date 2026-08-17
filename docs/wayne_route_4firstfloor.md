@@ -14,7 +14,7 @@ description: The first floor ends the tour.
 ---
 <div>
 <p>
-Go up to third floor via second floor.
+Congratulations! You have completed the 'WAYNE' route.
 </p>
 </div>
 
@@ -25,8 +25,8 @@ Go up to third floor via second floor.
 </div>
 
 <div>
-{% capture link_url %}{% link wayne_route_secondfloor.md %}{% endcapture %}
+{% capture link_url %}{% link detailed_renovation_info.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}" target="_BLANK">
-THIRD FLOOR VIA SECOND FLOOR
+More detailed renovation info, photos
 </a>
 </div>

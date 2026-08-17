@@ -26,10 +26,10 @@ The boiler stop.
 
 <div>
 Forward to
-{% capture link_url %}{% link wayne_route_secondfloor.md %}{% endcapture %}
+{% capture link_url %}{% link wayne_route_3firstfloor.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 <button>
-SECOND FLOOR
+THIRD FLOOR (via FIRST FLOOR and SECOND FLOOR)
 </button>
 </a>
 </div>

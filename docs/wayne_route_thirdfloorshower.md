@@ -26,7 +26,7 @@ The third floor stop. This is the last stop on the tour. After this, go downstai
 
 <div>
 Forward to
-{% capture link_url %}{% link wayne_route_3firstfloor.md %}{% endcapture %}
+{% capture link_url %}{% link wayne_route_4firstfloor.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 <button>
 FIRSTFLOOR
