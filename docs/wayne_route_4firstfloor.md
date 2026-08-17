@@ -20,7 +20,7 @@ Congratulations! You have completed the 'WAYNE' route.
 
 <div>
 <p>
-<img src="image/drawing_firstfloor_w3.jpg" alt="first floor map"  width=300 class="framed-image">
+<img src="image/drawing_firstfloor_w4.jpg" alt="first floor map"  width=300 class="framed-image">
 </p>
 </div>
 
