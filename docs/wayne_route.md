@@ -4,8 +4,8 @@ layout: default
 position: 1
 title: The "WAYNE" Route
 description: The "WAYNE" route is the "regular" tour route. Tour outside first, then the first floor and kitchen, basement, and end on third floor.  Start in the front hallway.
-arrowimg: "image/drawing_arrow_w1.jpg"
-arrowimgalt: "around arrow image"
+arrowimage: "image/drawing_arrow_w1.jpg"
+arrowimagealt: "around arrow image"
 descriptionlist:
   - Exterior outside
   - First floor and kitchen

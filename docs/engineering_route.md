@@ -4,8 +4,8 @@ layout: default
 position: 2
 title: The "ENGINEERING" Route
 description: The "ENGINEERING" route has you "start at the top and work your way down". Start on third floor, then kitchen, then exterior, and end in basement.
-arrowimg: "image/drawing_arrow_e1.jpg"
-arrowimgalt: "top-down arrow image"
+arrowimage: "image/drawing_arrow_e1.jpg"
+arrowimagealt: "top-down arrow image"
 descriptionlist:
   - Third floor shower
   - First floor and kitchen
