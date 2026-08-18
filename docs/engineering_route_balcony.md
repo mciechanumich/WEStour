@@ -20,16 +20,16 @@ The third floor balcony.
 
 <div>
 <p>
-<img src="image/drawing_thirdfloor_w1.jpg" alt="third floor map"  width=300 class="framed-image">
+<img src="image/drawing_thirdfloor_e1.jpg" alt="third floor map"  width=300 class="framed-image">
 </p>
 </div>
 
 <div>
 Forward to
-{% capture link_url %}{% link engineering_route_balcony.md %}{% endcapture %}
+{% capture link_url %}{% link engineering_route_2secondfloor.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 <button>
-BALCONY
+SECOND FLOOR
 </button>
 </a>
 </div>
