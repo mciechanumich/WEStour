@@ -4,6 +4,8 @@ layout: default
 position: 3
 title: The "SOCIETY" Route
 description: The "SOCIETY" route has you "work your way up". Start in the basement, then first-floor kitchen, exterior, and end on the third floor.
+arrowimg: "image/drawing_arrow_s1.jpg"
+arrowimgalt: "bottom-up arrow image"
 descriptionlist:
   - Basement
   - First floor and kitchen
