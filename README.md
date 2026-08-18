@@ -4,6 +4,7 @@ WES tour
 # map
 
 The map consists of levels, connectors, floors, and stops.
+
 - top. All routes start in main hallway
   - WAYNE route
     - exterior connector

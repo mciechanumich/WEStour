@@ -20,7 +20,7 @@ The third floor balcony.
 
 <div>
 <p>
-<img src="image/drawing_exterior.jpg" alt="exterior map"  width=300 class="framed-image">
+<img src="image/drawing_thirdfloor_w1.jpg" alt="third floor map"  width=300 class="framed-image">
 </p>
 </div>
 

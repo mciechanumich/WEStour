@@ -8,7 +8,7 @@ navstuff:
 #audio: /audio/frontfenceplaceholder.mp3
 #video
 # comment: set this to false when we have some real pages working
-description: The third floor tour stops include the shower/bathroom and the balcony.
+description: The first floor
 #images:
 #  - src: /image/fence300.jpg
 #    alt: front fence
@@ -16,22 +16,22 @@ description: The third floor tour stops include the shower/bathroom and the balc
 ---
 <div>
 <p>
-The third floor tour stops include the shower/bathroom and the balcony.  When you arrive at the first tour stop, click the button below.
+Down on first floor.
 </p>
 </div>
 
 <div>
 <p>
-<img src="image/drawing_thirdfloor_w1.jpg" alt="third floor map"  width=300 class="framed-image">
+<img src="image/drawing_firstfloordown_s1.jpg" alt="third floor map"  width=300 class="framed-image">
 </p>
 </div>
 
 <div>
 Forward to
-{% capture link_url %}{% link engineering_route_thirdfloorshower.md %}{% endcapture %}
+{% capture link_url %}{% link engineering_route_2firstfloor.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 <button>
-SHOWER
+FIRST FLOOR
 </button>
 </a>
 </div>
