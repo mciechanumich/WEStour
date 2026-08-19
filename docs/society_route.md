@@ -36,7 +36,7 @@ When you are ready, start in the front hallway and go to downstairs to tour the 
 <div>
 
 
-{% capture link_url %}{% link  first_floor_up12_connector  %}{% endcapture %} <a href="{{ link_url | relative_url }}">
+{% capture link_url %}{% link  society_route_basement.md  %}{% endcapture %} <a href="{{ link_url | relative_url }}">
 
 
 <button>

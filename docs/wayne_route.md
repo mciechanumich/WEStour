@@ -36,7 +36,7 @@ When you are ready, start in the front hallway and go outside to tour the exteri
 <div>
 
 
-{% capture link_url %}{% link  exterior_out1E_connector  %}{% endcapture %} <a href="{{ link_url | relative_url }}">
+{% capture link_url %}{% link  wayne_route_1exterior.md  %}{% endcapture %} <a href="{{ link_url | relative_url }}">
 
 
 <button>
