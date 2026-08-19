@@ -20,7 +20,7 @@ The electrical tour stop. This is the last tour stop. Go up to first floor to en
 
 <div>
 <p>
-<img src="image/drawing_basement_e2.jpg" alt="basement map"  width=300 class="framed-image">
+<img src="image/drawing_basement_e.jpg" alt="basement map"  width=300 class="framed-image">
 </p>
 </div>
 

@@ -22,7 +22,7 @@ Down in basement. Proceed to boiler tour stop.
 
 <div>
 <p>
-<img src="image/drawing_basement_e2.jpg" alt="basement map"  width=300 class="framed-image">
+<img src="image/drawing_basement_e.jpg" alt="basement map"  width=300 class="framed-image">
 </p>
 </div>
 
