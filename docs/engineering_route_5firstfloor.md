@@ -22,7 +22,7 @@ Congratulations! You have completed the 'ENGINEERING' route.
 
 <div>
 <p>
-<img src="image/drawing_firstfloorup_e2.jpg" alt="first floor map"  width=300 class="framed-image">
+<img src="image/drawing_firstfloor_e5.jpg" alt="first floor map"  width=300 class="framed-image">
 </p>
 </div>
 
