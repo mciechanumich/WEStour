@@ -2,7 +2,13 @@
 published: true
 layout: default
 title: The Balcony
-audio: /audio/filler.mp3
+audio: /audio/balcony.mp3
+navstuff:
+  link: engineering_route.md
+  desc: ENGINEERING route
+navstuff2:
+  link: engineering_route_1thirdfloor.md
+  desc: ENGINEERING route third floor
 #video
 # comment: set this to false when we have some real pages working
 description: The third floor balcony
@@ -14,6 +20,15 @@ description: The third floor balcony
 <div>
 <p>
 The third floor balcony.
+</p>
+</div>
+
+<div>
+<p>Link to
+{% capture link_url %}{% link balcony_txt.md %}{% endcapture %}
+<a href="{{ link_url | relative_url }}">
+transcript
+</a>.
 </p>
 </div>
 
