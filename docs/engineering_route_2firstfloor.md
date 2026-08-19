@@ -28,10 +28,10 @@ Down on first floor. Proceed to kitchen tour stop.
 
 <div>
 Forward to
-{% capture link_url %}{% link engineering_route_kitchen.md %}{% endcapture %}
+{% capture link_url %}{% link engineering_route_tempkitchen.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 <button>
-KITCHEN
+TEMPORARY KITCHEN
 </button>
 </a>
 </div>

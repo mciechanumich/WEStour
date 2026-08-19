@@ -25,10 +25,10 @@ The temporary kitchen stop.
 
 <div>
 Forward to
-{% capture link_url %}{% link engineering_route_exterior.md %}{% endcapture %}
+{% capture link_url %}{% link engineering_route_kitchen.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 <button>
-EXTERIOR
+KITCHEN
 </button>
 </a>
 </div>
