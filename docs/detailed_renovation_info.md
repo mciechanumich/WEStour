@@ -1,13 +1,19 @@
 ---
 published: true
 layout: default
-title: Renovation detailed information
+title: Renovation Projects More Detailed Information
 description: Further details and photos of rennovation and repair projects.
 #images:
 #  - src: /image/fence300.jpg
 #    alt: front fence
 #extra:
 ---
+<div>
+<p>
+Further details and photos of rennovation and repair projects.
+</p>
+</div>
+
 <h1>Links</h1>
 
 <h2>Exterior Painting and Wood Replacement (2016)</h2>

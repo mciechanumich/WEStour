@@ -1,9 +1,14 @@
 ---
 published: true
 layout: default
-position: 1
 title: Third Floor Shower
 audio: /audio/filler.mp3
+navstuff:
+  link: wayne_route.md
+  desc: WAYNE route
+navstuff2:
+  link: wayne_route_thirdfloor.html
+  desc: WAYNE Route Third Floor
 #video
 # comment: set this to false when we have some real pages working
 description: The Third Floor Shower stop.

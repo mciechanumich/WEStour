@@ -1,8 +1,10 @@
 ---
 published: true
 layout: default
-position: 1
 title: WAYNE Route first floor to second floor
+navstuff:
+  link: wayne_route.md
+  desc: WAYNE route
 #audio: /audio/frontfenceplaceholder.mp3
 #video
 # comment: set this to false when we have some real pages working
