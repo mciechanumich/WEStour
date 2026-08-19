@@ -22,7 +22,7 @@ Down on first floor. Proceed to kitchen tour stop.
 
 <div>
 <p>
-<img src="image/drawing_firstfloordown_e2b.jpg" alt="third floor map"  width=300 class="framed-image">
+<img src="image/drawing_firstfloor_e2b.jpg" alt="first floor map"  width=300 class="framed-image">
 </p>
 </div>
 

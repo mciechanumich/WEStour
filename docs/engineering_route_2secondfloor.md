@@ -1,7 +1,7 @@
 ---
 published: true
 layout: default
-title: The Third Floor
+title: The Second Floor
 navstuff:
   link: engineering_route.md
   desc: ENGINEERING route
@@ -22,7 +22,7 @@ Down through second floor.
 
 <div>
 <p>
-<img src="image/drawing_secondfloordown_s1.jpg" alt="third floor map"  width=300 class="framed-image">
+<img src="image/drawing_secondfloordown_s1.jpg" alt="second floor map"  width=300 class="framed-image">
 </p>
 </div>
 

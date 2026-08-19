@@ -1,7 +1,6 @@
 ---
 published: true
 layout: default
-position: 1
 title: The Balcony
 audio: /audio/filler.mp3
 #video
