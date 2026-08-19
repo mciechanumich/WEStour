@@ -1,14 +1,14 @@
 ---
 published: true
 layout: default
-title: The Second Floor
+title: The First Floor
 navstuff:
   link: engineering_route.md
   desc: ENGINEERING route
 #audio: /audio/frontfenceplaceholder.mp3
 #video
 # comment: set this to false when we have some real pages working
-description: Continue up the second floor to the third floor.
+description: The first floor
 #images:
 #  - src: /image/fence300.jpg
 #    alt: front fence
@@ -16,22 +16,22 @@ description: Continue up the second floor to the third floor.
 ---
 <div>
 <p>
-Continue up the second floor to the third floor.
+Back inside on first floor. Proceed downstairs.
 </p>
 </div>
 
 <div>
 <p>
-<img src="image/drawing_secondfloor_w1.jpg" alt="second floor map"  width=300 class="framed-image">
+<img src="image/drawing_firstfloordown_e2b.jpg" alt="third floor map"  width=300 class="framed-image">
 </p>
 </div>
 
 <div>
 Forward to
-{% capture link_url %}{% link engineering_route_1thirdfloor.md %}{% endcapture %}
+{% capture link_url %}{% link engineering_route_basement.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 <button>
-THIRD FLOOR
+BASEMENT
 </button>
 </a>
 </div>

@@ -2,11 +2,11 @@
 published: true
 layout: default
 position: 1
-title: The Balcony
-audio: /audio/filler.mp3
+title: Dumpster
+# audio: /audio/filler.mp3
 #video
 # comment: set this to false when we have some real pages working
-description: The third floor balcony
+description: The dumpster tour stop.
 #images:
 #  - src: /image/fence300.jpg
 #    alt: front fence
@@ -14,22 +14,22 @@ description: The third floor balcony
 ---
 <div>
 <p>
-The third floor balcony.
+The dumpster tour stop.
 </p>
 </div>
 
 <div>
 <p>
-<img src="image/drawing_thirdfloor_e1.jpg" alt="third floor map"  width=300 class="framed-image">
+<img src="image/drawing_exterior.jpg" alt="exterior map"  width=300 class="framed-image">
 </p>
 </div>
 
 <div>
 Forward to
-{% capture link_url %}{% link engineering_route_2secondfloor.md %}{% endcapture %}
+{% capture link_url %}{% link engineering_route_ext_electr.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 <button>
-SECOND FLOOR
+EXTERIOR ELECTRICAL
 </button>
 </a>
 </div>

@@ -1,7 +1,7 @@
 ---
 published: true
 layout: default
-title: The ENGINEERING Route Third Floor
+title: The First Floor
 navstuff:
   link: engineering_route.md
   desc: ENGINEERING route
@@ -16,22 +16,22 @@ description: The first floor
 ---
 <div>
 <p>
-Down on first floor.
+Down on first floor. Proceed to kitchen tour stop.
 </p>
 </div>
 
 <div>
 <p>
-<img src="image/drawing_firstfloordown_s1.jpg" alt="third floor map"  width=300 class="framed-image">
+<img src="image/drawing_firstfloordown_e2b.jpg" alt="third floor map"  width=300 class="framed-image">
 </p>
 </div>
 
 <div>
 Forward to
-{% capture link_url %}{% link engineering_route_2firstfloor.md %}{% endcapture %}
+{% capture link_url %}{% link engineering_route_kitchen.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 <button>
-FIRST FLOOR
+KITCHEN
 </button>
 </a>
 </div>
