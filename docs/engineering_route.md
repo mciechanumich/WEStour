@@ -4,8 +4,8 @@ layout: default
 position: 2
 title: The "ENGINEERING" Route
 description: The "ENGINEERING" route has you "start at the top and work your way down". Start on third floor, then kitchen, then exterior, and end in basement.
-arrowimage: "image/drawing_arrow_e1.jpg"
-arrowimagealt: "top-down arrow image"
+arrowimage: image/drawing_arrow_e1.jpg
+arrowimagealt: top-down arrow image
 descriptionlist:
   - Third floor shower
   - First floor and kitchen
@@ -22,16 +22,25 @@ When you are ready, start in the front hallway and go upstairs to tour the third
 </div>
 <div>
 <p>
-<img src="image/drawing_firstfloor_e1.jpg" alt="first floor"  width=300 class="framed-image">
+
+    <div>
+        <img style="float: right;" alt="top-down arrow image" src="image/drawing_arrow_e1.jpg" width="70" />
+        <img src="image/drawing_firstfloor_e1.jpg" alt="first floor"  width=300 class="framed-image">
+    </div>
+    <div style="clear: right"></div>
+
+
 </p>
 </div>
 
 <div>
 
-{% capture link_url %}{% link engineering_route_1secondfloor.md %}{% endcapture %} <a href="{{ link_url | relative_url }}">
+
+{% capture link_url %}{% link  {% capture link_url %}{% link wayne_route_1exterior.md %}{% endcapture %} <a href="{{ link_url | relative_url }}">  %}{% endcapture %} <a href="{{ link_url | relative_url }}">
+
 
 <button>
-THIRD FLOOR
+SECOND FLOOR
 </button>
 </a>
 </div>
