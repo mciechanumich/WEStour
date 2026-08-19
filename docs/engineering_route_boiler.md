@@ -1,14 +1,12 @@
 ---
 published: true
 layout: default
-title: The Basement
-navstuff:
-  link: engineering_route.md
-  desc: ENGINEERING route
-#audio: /audio/frontfenceplaceholder.mp3
+position: 1
+title: Boiler
+# audio: /audio/filler.mp3
 #video
 # comment: set this to false when we have some real pages working
-description: The basement
+description: The boiler tour stop.
 #images:
 #  - src: /image/fence300.jpg
 #    alt: front fence
@@ -16,7 +14,7 @@ description: The basement
 ---
 <div>
 <p>
-Down in basement. Proceed to boiler tour stop.
+The boiler tour stop.
 </p>
 </div>
 
@@ -28,10 +26,10 @@ Down in basement. Proceed to boiler tour stop.
 
 <div>
 Forward to
-{% capture link_url %}{% link engineering_route_boiler.md %}{% endcapture %}
+{% capture link_url %}{% link engineering_route_electrical.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 <button>
-BOILER
+ELECTRICAL
 </button>
 </a>
 </div>
