@@ -3,6 +3,9 @@ published: true
 layout: default
 position: 1
 title: Exterior
+navstuff:
+  link: engineering_route.md
+  desc: ENGINEERING route
 # audio: /audio/filler.mp3
 #video
 # comment: set this to false when we have some real pages working

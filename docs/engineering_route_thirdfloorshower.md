@@ -4,6 +4,12 @@ layout: default
 position: 1
 title: Third Floor Shower and Bathroom
 audio: /audio/filler.mp3
+navstuff:
+  link: engineering_route.md
+  desc: ENGINEERING route
+navstuff2:
+  link: engineering_route_1thirdfloor.md
+  desc: ENGINEERING route third floor
 #video
 # comment: set this to false when we have some real pages working
 description: The third floor shower and bathroom

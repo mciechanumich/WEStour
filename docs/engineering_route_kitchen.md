@@ -3,6 +3,12 @@ published: true
 layout: default
 title: Kitchen
 audio: /audio/filler.mp3
+navstuff:
+  link: engineering_route.md
+  desc: ENGINEERING route
+navstuff2:
+  link: engineering_route_2firstfloor.md
+  desc: ENGINEERING route first floor
 # audio: /audio/filler.mp3
 #video
 # comment: set this to false when we have some real pages working

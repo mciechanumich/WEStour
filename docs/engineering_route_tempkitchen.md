@@ -3,6 +3,12 @@ published: true
 layout: default
 title: Temporary Kitchen
 audio: /audio/filler.mp3
+navstuff:
+  link: engineering_route.md
+  desc: ENGINEERING route
+navstuff2:
+  link: engineering_route_2firstfloor.md
+  desc: ENGINEERING route first floor
 #video
 # comment: set this to false when we have some real pages working
 description: The temporary kitchen tour stop.

@@ -3,6 +3,12 @@ published: true
 layout: default
 title: Front Fence
 audio: /audio/fence.mp3
+navstuff:
+  link: engineering_route.md
+  desc: ENGINEERING route
+navstuff2:
+  link: engineering_route_exterior.md
+  desc: ENGINEERING route exterior
 #video
 # comment: set this to false when we have some real pages working
 description: The front fence tour stop.

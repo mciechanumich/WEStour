@@ -3,6 +3,12 @@ published: true
 layout: default
 title: Boiler
 audio: /audio/filler.mp3
+navstuff:
+  link: engineering_route.md
+  desc: ENGINEERING route
+navstuff2:
+  link: engineering_route_basement.md
+  desc: ENGINEERING route exterior
 #video
 # comment: set this to false when we have some real pages working
 description: The boiler tour stop.
