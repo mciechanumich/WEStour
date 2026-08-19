@@ -26,7 +26,7 @@ The third floor balcony.
 <div>
 <p>Link to
 {% capture link_url %}{% link balcony_txt.md %}{% endcapture %}
-<a href="{{ link_url | relative_url }}">
+<a href="{{ link_url | relative_url }}" target="_BLANK">
 transcript
 </a>.
 </p>
