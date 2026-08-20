@@ -1,14 +1,17 @@
 ---
 published: true
 layout: default
-title: The Basement
+title: Boiler
+audio: /audio/filler.mp3
 navstuff:
   link: society_route.md
   desc: SOCIETY route
-#audio: /audio/filler.mp3
+navstuff2:
+  link: engineering_route_basement.md
+  desc: SOCIETY route basement
 #video
 # comment: set this to false when we have some real pages working
-description: The basement tour stops include the electrical and boiler room.
+description: The boiler tour stop.
 #images:
 #  - src: /image/fence300.jpg
 #    alt: front fence
@@ -16,7 +19,7 @@ description: The basement tour stops include the electrical and boiler room.
 ---
 <div>
 <p>
-The basement tour stops include electrical and the boiler room. When you arrive at the tour stop, click the button below.
+The boiler tour stop.
 </p>
 </div>
 
@@ -28,10 +31,10 @@ The basement tour stops include electrical and the boiler room. When you arrive 
 
 <div>
 Forward to
-{% capture link_url %}{% link society_route_boiler.md %}{% endcapture %}
+{% capture link_url %}{% link society_route_electrical.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
 <button>
-BOILER
+ELECTRICAL
 </button>
 </a>
 </div>
