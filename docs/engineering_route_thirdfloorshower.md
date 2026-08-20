@@ -31,6 +31,12 @@ The third floor shower and bathroom.
 </div>
 
 <div>
+<p>
+When you are ready, follow the map to the next tour stop and click the button below.
+</p>
+</div>
+
+<div>
 Forward to
 {% capture link_url %}{% link engineering_route_balcony.md %}{% endcapture %}
 <a href="{{ link_url | relative_url }}">
